@@ -1,0 +1,9 @@
+name: HelloWorkflow
+
+on: [push]
+
+jobs:
+  Hello:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "HelloWorkflow"
